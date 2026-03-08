@@ -45,9 +45,9 @@ Before you click the "Complete Assessment" button on the Learning Platform, add 
    >6. Then display a window popup alert that says "The {child}'s wish is {the value listed with the db child's wish property}
 
 2. In the **Pairings** module, why must the `findCelebrityMatch()` function be invoked inside the `for..of` loop that iterates the kids array?
-   > The `findCelebrityMatch()` function has the recipe we need to do the work of finding the child's celebrity id with the celebrity's id. This function needs to be invoked inside the `for..of` loop iterating the kids array because we can't add the matching child and celebrity to the <li> string until after the `findCelebrityMatch()` function first finds the match.
+   > The `findCelebrityMatch()` function has the recipe we need to do the work of finding the child's celebrity id with the celebrity's id. This function needs to be invoked inside the `for..of` loop iterating the kids array because we can't add the matching child and celebrity to the `<li>` string until after the `findCelebrityMatch()` function first finds the match.
 3. In the **CelebrityList** module, can you describe how the name of the sport that the celebrity plays can be displayed in the window alert text?
-   >First, by importing the getCelebrities() structured clone, I have access to a copy of the celebrity array in the database. Secondly, I added data attributes into the <li> elements for the list of celebrities, so I can now extract that data when a click occurs. 
+   >First, by importing the getCelebrities() structured clone, I have access to a copy of the celebrity array in the database. Secondly, I added data attributes into the `<li>` elements for the list of celebrities, so I can now extract that data when a click occurs. 
    >
    >A user's click on a celebrity's name is an event that triggers a loop looking through the entire celebrities database array. If one of the individual celebrity object's id property value matches the stored dataset id value, then I can display a window alert. The window alert produces text by using string interpolation to include the celebrity's sport value within that displayed text.
 4. Can you describe, in detail, the algorithm that is in the `main` module?
